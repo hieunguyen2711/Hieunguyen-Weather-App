@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(135deg, #4c669f, #3b5998);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+  }
+  
+  .card-header {
+    background-color: #3b5998 !important;
+  }
+  
+  .input-group .form-control:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .input-group .form-control:not(:first-child):not(:last-child) {
+    border-radius: 0;
+  }
+  
+  .input-group .form-control:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .btn-primary {
+    background-color: #3b5998;
+    border-color: #3b5998;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2d4373;
+    border-color: #2d4373;
+  }
+  
+  .temperature {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  #temp-unit {
+    font-size: 2rem;
+    vertical-align: super;
+  }
+  
+  #weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+    display: none;
+  }
+  
+  #weather-description {
+    text-transform: capitalize;
+  }
+  
+  .additional-info {
+    margin-top: 2rem;
+  }
+  
+  .additional-info p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
